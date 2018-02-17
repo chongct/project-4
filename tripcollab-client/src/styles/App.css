@@ -1,96 +1,75 @@
-.App {
-  text-align: center;
+/* Home */
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6em;
+  left: 40%;
+  position: absolute;
+  padding-top: 0.8em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+nav.navbar,
+.navbar-default {
+  background-color: rgba(76, 197, 218, 0.705) !important;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.icon {
+  width: 40%;
 }
 
-.App-intro {
-  font-size: large;
+.btn-primary {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: rgba(76, 197, 218, 0.705);
+  letter-spacing: 2px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h3 {
+  margin-bottom: 1em;
 }
 
-
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 100%;
-}
-
-html,
-body {
-  min-height: 100%;
-  min-height: 100vh;
-}
-
-body {
-  font: 16px 'Roboto', Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  background: #f6f6f6;
-}
-
-.app {
-  max-width: 60rem;
+.about {
+  background: url("/assets/travel-group.jpg");
+  background-size: cover;
   width: 100%;
-  background: lightgray;
-  padding: 1rem;
-  font-size: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  min-height: 100%;
-  min-height: 100vh;
-  margin: 0 auto;
-  > header,
-  > main,
-  > footer {
-    width: 100%;
-    padding: 1rem;
-    margin: .5rem 1rem;
-    text-align: center;
-    transition: 200ms;
-    &:hover {
-      box-shadow: 0 0 2rem gray;
-    }
-  }
-  > header {
-    display: block;
-    color: white;
-    background: gray;
-    text-transform: uppercase;
-  }
-  > main {
-    flex: 1 1 auto;
-    color: white;
-    background: #333;
-  }
-  > footer {
-    background: white;
-  }
+  height: 90em;
+  padding: 5em 3em;
+  margin-bottom: 4em;
+}
+
+/* Itinerary */
+
+.map {
+  width: 100%;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  height: 20%;
+}
+
+.sidebar-section img {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+footer a:link {
+  text-decoration: none;
 }
