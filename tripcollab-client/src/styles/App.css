@@ -7,10 +7,6 @@
   padding-top: 0.8em;
 }
 
-nav.navbar,
-.navbar-default {
-  background-color: rgba(76, 197, 218, 0.705) !important;
-}
 
 .navbar-default {
   background-image: none;
@@ -34,17 +30,12 @@ nav.navbar,
   letter-spacing: 2px;
 }
 
-h3 {
-  margin-bottom: 1em;
-}
 
-.about {
-  background: url("/assets/travel-group.jpg");
+.main-image {
+  background: url("/assets/friends.jpg");
   background-size: cover;
   width: 100%;
   height: 90em;
-  padding: 5em 3em;
-  margin-bottom: 4em;
 }
 
 /* Itinerary */
