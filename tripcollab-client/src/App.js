@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import PlacesWithStandaloneSearchBox from './SearchBox';
+import update from 'immutability-helper'
+import { DragDropContext } from 'react-dnd'
+import HTML5Backend from 'react-dnd-html5-backend'
+import Location from './Location'
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.moveCard = this.moveCard.bind(this)
     this.state = {
       locationList: []
     };
@@ -48,8 +53,23 @@ class App extends Component {
     this.retrieveFromList();
   }
 
+  // DnD Stuff
+
+  moveCard(dragIndex, hoverIndex) {
+    const { locationList } = this.state
+    const dragCard = locationList[dragIndex]
+    // console.log(locationList)
+    this.setState(
+      update(this.state, {
+        locationList: {
+          $splice: [[dragIndex, 1], [hoverIndex, 0, dragCard]]
+        }
+      })
+    )
+  }
+
   render() {
-    let locationList = this.state.locationList.map(location => <p key={location.locationID}>{location.locationName}, {location.locationAddress} at {location.latitude}, {location.longitude}</p>)
+    let locationList = this.state.locationList.map((location, i) => <Location {...location} key={location.locationID} id={location.locationID} moveCard={this.moveCard} index={i} />)
 
     return (
       <div className="App">
@@ -71,4 +91,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default DragDropContext(HTML5Backend)(App);
