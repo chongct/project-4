@@ -1,5 +1,4 @@
 /* Home */
-
 .navbar-brand {
   font-family: 'Pacifico', cursive;
   font-size: 1.6em;
@@ -49,21 +48,12 @@ h3 {
 }
 
 /* Itinerary */
-
 .map {
   width: 100%;
-  margin-top: -2em;
-  margin-bottom: 2em;
-  height: 20%;
-}
-
-.sidebar-section img {
-  width: 100%;
-  margin-bottom: 2em;
+  padding-top: 5em;
 }
 
 /* Footer */
-
 footer {
   position: absolute;
   text-align: center;

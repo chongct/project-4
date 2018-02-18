@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Link } from 'react-router-dom';
-import { Grid, Row, Col, Image, Button } from 'react-bootstrap';
+import { Grid, Row, Col, Image, Button} from 'react-bootstrap';
 import '../styles/App.css';
 
 class Home extends Component {
@@ -36,8 +36,8 @@ class Home extends Component {
             <h4>Offline Access</h4>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
           </Col>
-        </Row>
-      
+          </Row>
+
           <Link to="/Itinerary">
             <Button bsStyle="primary">Create Itinerary</Button>
           </Link>
