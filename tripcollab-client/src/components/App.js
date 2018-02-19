@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import './App.css';
+import '../styles/App.css';
 import PlacesWithStandaloneSearchBox from './SearchBox';
+import {  Table, Row,Panel, Button } from 'react-bootstrap';
 
 class App extends Component {
   constructor() {
@@ -53,6 +54,59 @@ class App extends Component {
 
     return (
       <div className="App">
+        <PlacesWithStandaloneSearchBox onAdd={this.addToList}/>
+        <ol id="locationList"></ol>
+        <Table responsive>
+          <thead>
+            <tr>
+              <th></th>
+              <th>
+                Location Name
+              </th>
+              <th>
+                Address
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                GA Carpark
+              </td>
+              <td>
+                8 Claymore Hill
+              </td>
+            </tr>
+            <tr>
+              <td>
+                2
+              </td>
+              <td>
+                Ebere House
+              </td>
+              <td>
+                Tampines St 11 Blk 272
+              </td>
+            </tr>
+            <tr>
+              <td>
+                3
+              </td>
+              <td>
+                Some shithole
+              </td>
+              <td>
+                14 D Scotts Road, #03-26/27
+              </td>
+
+            </tr>
+          </tbody>
+        </Table>
+
+
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
@@ -60,8 +114,6 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p> */}
-        <PlacesWithStandaloneSearchBox onAdd={this.addToList}/>
-        <ol id="locationList"></ol>
 
         {/* this section retrieves saved locations from MongoDB, data can be manipulated */}
         <h2>Previously Saved Locations</h2>
