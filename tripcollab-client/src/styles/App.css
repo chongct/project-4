@@ -1,12 +1,64 @@
 /* Home */
-.navbar-brand {
+
+body {
+    background: url("/assets/friends.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+  }
+
+#back-panel {
+  background-color: #fff;
+  width: 100%;
+  height: 8em;
+  position: absolute;
+  margin-top: 30em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6em;
+  position: absolute;
+  left: 40%;
+}
+
+.main-text {
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.6em;
+  position: absolute;
+  text-align: right;
+}
+
+.icon-header {
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.1em;
+}
+
+.icon-wrapper {
+  position: relative;
+  margin-top: 31em;
+}
+
+.image-icon {
+  width: 4em;
+  height: 4em;
+}
+
+/* .verticalLine {
+  border-left: thick solid #ff0000;
+} */
+
+/* .navbar-brand {
   font-family: 'Pacifico', cursive;
   font-size: 1.6em;
   left: 40%;
   position: absolute;
   padding-top: 0.8em;
 }
-
 
 .navbar-default {
   background-image: none;
@@ -16,7 +68,7 @@
 
 .navbar-default .navbar-brand {
   color: white;
-}
+} */
 
 .icon {
   width: 40%;
@@ -28,14 +80,6 @@
   border-radius: 0;
   background-color: rgba(76, 197, 218, 0.705);
   letter-spacing: 2px;
-}
-
-
-.main-image {
-  background: url("/assets/friends.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 90em;
 }
 
 /* Itinerary */
