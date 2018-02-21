@@ -18,18 +18,20 @@ Code example
 Code example
 ```
 ---
-
 ## Built With
 * Technologies: React
 * Database: MongoDB
 * CSS Framework: Bootstrap
 ---
-
 ## Deployment & Versioning
 * Github
 * Heroku
 ---
 ## Workflow
+
+### Entity-Relationship Diagram
+![p4_erd](https://user-images.githubusercontent.com/31798170/36470526-1b28c53e-1726-11e8-9823-3f25dc2829d3.png)
+
 ---
 ### User Stories
 * As a User, I want to create new travel itinerary for different trips.
@@ -40,26 +42,24 @@ Code example
 * As a User, I want to delete location from the places-to-go list.
 * As a User, I want my friends to vote on the locations they want to visit (NTH).
 * As a User, I want to chat with my friends about the planning (NTH).
-*  As a User, I want to organise my planner base on the days.
-*  As a User, I want to add events to my planner (time, location, remark).
-*  As a User, I want the events to be in sequence (sort by timing).
-*  As a User, I want to edit events.
-*  As a User, I want to delete events.
-*  As a User, I want to see all the location on the map base on the day (NTH).
-*  As a User, I want to see the routes to travel for the day (NTH).
-*  As a User, I want to save my completed itinerary.
+* As a User, I want to organise my planner base on the days.
+* As a User, I want to add events to my planner (time, location, remark).
+* As a User, I want the events to be in sequence (sort by timing).
+* As a User, I want to edit events.
+* As a User, I want to delete events.
+* As a User, I want to see all the location on the map base on the day (NTH).
+* As a User, I want to see the routes to travel for the day (NTH).
+* As a User, I want to save my completed itinerary.
 ---
 ### Use Case
 ![p4 use case](https://user-images.githubusercontent.com/31798170/36470084-978098ca-1724-11e8-9e31-ed1a4c2ec61a.png)
 
 ---
-### Entity-Relationship Diagram
-![p4_erd](https://user-images.githubusercontent.com/31798170/36463601-edf6b1f4-1705-11e8-9ed2-2d2a437fd0e3.png)
----
 ### Flowchart
 ---
 ### Wireframe
 ![p4_wireframe](https://user-images.githubusercontent.com/31798170/36464144-1f4d6524-1709-11e8-9853-fbde0cd91bdb.png)
+
 ---
 ## Project Collaboration
 * Trello Project Management application
@@ -69,6 +69,7 @@ Code example
 *
 *
 *
+
 ---
 ## Acknowledgments
 * Homepage Photo by Helena Lopes on Unsplash
