@@ -31,8 +31,6 @@ Code example
 ---
 ## Workflow
 ---
-### Use Case
----
 ### User Stories
 * As a User, I want to create new travel itinerary for different trips.
 * As a User, I want to set details for the trip (title, country, from date when to when).
@@ -51,6 +49,10 @@ Code example
 *  As a User, I want to see the routes to travel for the day (NTH).
 *  As a User, I want to save my completed itinerary.
 ---
+### Use Case
+![p4 use case](https://user-images.githubusercontent.com/31798170/36470084-978098ca-1724-11e8-9e31-ed1a4c2ec61a.png)
+
+---
 ### Entity-Relationship Diagram
 ![p4_erd](https://user-images.githubusercontent.com/31798170/36463601-edf6b1f4-1705-11e8-9ed2-2d2a437fd0e3.png)
 ---
@@ -59,9 +61,14 @@ Code example
 ### Wireframe
 ![p4_wireframe](https://user-images.githubusercontent.com/31798170/36464144-1f4d6524-1709-11e8-9853-fbde0cd91bdb.png)
 ---
-## Authors / Project Collaboration
-* Trello
+## Project Collaboration
+* Trello Project Management application
 ![trello](https://user-images.githubusercontent.com/31798170/36463936-eb759a6a-1707-11e8-8f62-d1cfd532f6cb.png)
+
+### Authors
+*
+*
+*
 ---
 ## Acknowledgments
 * Homepage Photo by Helena Lopes on Unsplash
