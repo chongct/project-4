@@ -4,52 +4,80 @@ Our group is developing a website with a centralised, easy-to-use travel itinera
 
 Live version: https://tripcollab-v2.herokuapp.com/
 
-## Getting Started
-
 ---
-### How to Use
 
-* Run ```yarn install``` to install dependencies.
+## Getting Started
+### How to Use
+* Fork and clone this repository.
+* Open your terminal and run ```yarn install``` to install dependencies.
 * Run ```yarn start```.
 
 ---
+
 ## Built With
-* Technologies: React
+* Technologies: React, Node.js
 * Database: MongoDB
-* CSS Framework: Bootstrap
+* CSS Framework: Bootstrap 4.0
+
 ---
+
 ## Deployment & Versioning
 * Github
 * Heroku
----
-## Workflow
 
+---
+
+## Workflow
 ### Entity-Relationship Diagram
 ![p4_erd](https://user-images.githubusercontent.com/31798170/36517170-4131fb74-17bc-11e8-9a6a-8ecdcfdcd1f1.png)
----
-### User Stories
-![p4 user stories](https://user-images.githubusercontent.com/31798170/36518579-f591fde4-17c1-11e8-86fa-507fc7c83dca.png)
----
-### Use Case
-![p4 use case](https://user-images.githubusercontent.com/31798170/36517157-31ab1938-17bc-11e8-8c09-ffcb18f84878.png)
----
-### Flowchart
-![p4 flowchart](https://user-images.githubusercontent.com/31798170/36517141-222913c0-17bc-11e8-9d53-66b6d3e1ef5b.png)
----
-### Wireframe
-![p4_wireframe](https://user-images.githubusercontent.com/31798170/36517183-58883ca2-17bc-11e8-90c0-e9d5028f26f0.png)
+
 ---
 
-## Scalable Areas
+### User Stories
+![p4 user stories](https://user-images.githubusercontent.com/31798170/36518579-f591fde4-17c1-11e8-86fa-507fc7c83dca.png)
+
 ---
+
+### Use Case
+![p4 use case](https://user-images.githubusercontent.com/31798170/36517157-31ab1938-17bc-11e8-8c09-ffcb18f84878.png)
+
+---
+
+### Flowchart
+![p4 flowchart](https://user-images.githubusercontent.com/31798170/36517141-222913c0-17bc-11e8-9d53-66b6d3e1ef5b.png)
+
+---
+
+### Wireframe
+![p4_wireframe](https://user-images.githubusercontent.com/31798170/36517183-58883ca2-17bc-11e8-90c0-e9d5028f26f0.png)
+
+---
+
+# Scalable Areas
+* Share trip url via email.
+* Allow upvote and downvote on each location.
+
+---
+
 ## Project Collaboration
 * Trello Project Management application
 
 ![trello](https://user-images.githubusercontent.com/31798170/36472250-3cf73956-172c-11e8-9582-d4665b5f220c.jpeg)
 
 ### Authors
+* [Darren Koh](https://github.com/keed) 
+* [Chong Ching Tong](https://github.com/chongct)
+* [Edmund Teo](https://github.com/edmundtck)
+* [Wong Kin Ting](https://github.com/strisen)
+* [Speed Chan](https://github.com/knownopear)
+* [Lim Jiechao](https://github.com/limjiechao)
+* [Poh Yan Jie](https://github.com/empludo)
+* [Jo Sho](https://github.com/emjys)
 
 ---
+
 ## Acknowledgments
+
 * Homepage Photo by Helena Lopes on Unsplash
 
+---
